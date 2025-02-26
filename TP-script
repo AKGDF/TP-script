@@ -1,4 +1,4 @@
-<img src="https://github.com/AKGDF/TP-script/blob/main/stjerne-1.png" 
+<img src="https://raw.githubusercontent.com/AKGDF/TP-script/main/stjerne-1.png" 
      id="trustpilot-stars" 
      width="200">
 
@@ -15,6 +15,6 @@
 <script>
   function changeStar(level) {
     document.getElementById("trustpilot-stars").src = 
-      "https://github.com/AKGDF/TP-script/blob/main/stjerne-" + level + ".png";
+      "https://raw.githubusercontent.com/AKGDF/TP-script/main/stjerne-" + level + ".png";
   }
 </script>
