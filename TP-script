@@ -1,0 +1,20 @@
+<img src="https://github.com/AKGDF/TP-script/blob/main/stjerne-1.png" 
+     id="trustpilot-stars" 
+     width="200">
+
+<table>
+  <tr>
+    <td onmouseover="changeStar(1)">★</td>
+    <td onmouseover="changeStar(2)">★</td>
+    <td onmouseover="changeStar(3)">★</td>
+    <td onmouseover="changeStar(4)">★</td>
+    <td onmouseover="changeStar(5)">★</td>
+  </tr>
+</table>
+
+<script>
+  function changeStar(level) {
+    document.getElementById("trustpilot-stars").src = 
+      "https://github.com/AKGDF/TP-script/blob/main/stjerne-" + level + ".png";
+  }
+</script>
